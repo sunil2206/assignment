@@ -1,0 +1,6 @@
+<form #form1="ngForm" (ngSubmit)="viewNumbers(form1)" novalidate>
+
+  {{ cntrl }} <input type="text" class="mt-2" ngModel [name]="cntrl" #cntrl="ngModel">
+
+  <button class="btn-primary mt-2 ml-2" type="submit">view all numbers</button>
+</form>

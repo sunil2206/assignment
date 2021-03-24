@@ -1,0 +1,20 @@
+<div>
+
+  <app-corner-box class="left-top" [message]="userInput">
+  </app-corner-box>
+
+
+
+  <app-corner-box class="right-top" [message]="userInput">
+  </app-corner-box>
+  <app-middle-input class="middle" (newEvent)="changeMsg($event)">
+  </app-middle-input>
+  <app-corner-box class="left-bottom" [message]="userInput">
+  </app-corner-box>
+
+
+
+  <app-corner-box class="right-bottom" [message]="userInput">
+  </app-corner-box>
+</div>
+

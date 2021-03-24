@@ -1,0 +1,10 @@
+<p>{{ displayArray }}</p>
+
+
+
+<form #form1="ngForm">
+  <input type="text" name="index" #userInput>
+  <button type="submit" (click)="showData(userInput)">Display data</button>
+</form>
+<p *ngIf="errMsg">{{errMsg}}</p>
+<p *ngIf="returnData">data on selected index :: {{returnData}}</p>

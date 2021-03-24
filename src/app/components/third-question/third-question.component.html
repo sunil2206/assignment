@@ -1,0 +1,13 @@
+<form #form1="ngForm" (ngSubmit)="viewNumbers(form1)" novalidate>
+
+    <div class="col col-8" *ngFor="let cntrl of cntrlArr">
+      <div class="wrapper">
+      {{ cntrl}} <input type="text" class="mt-2" ngModel [name]="cntrl" #cntrl1>
+      <span class="btn-dark ml-2" (click)="add()">+</span>
+
+
+    </div>
+  </div>
+
+  <button class="btn-primary mt-2 ml-2" type="submit">view all numbers</button>
+</form>

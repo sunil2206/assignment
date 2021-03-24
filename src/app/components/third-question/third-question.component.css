@@ -1,0 +1,21 @@
+.add_btn{
+  height: 90%;
+  widht: 30%;
+  font-size: x-large;
+  background-color: darkgrey;
+}
+.ind_field{
+  display: inline;
+}
+.input_field{
+  widht: 80%;
+}
+.btn-dark{
+  height: 100%;
+  width: auto;
+}
+.wrapper{
+  margin-top: 2%;
+  height:50%;
+  width:50%;
+}

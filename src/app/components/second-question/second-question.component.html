@@ -1,0 +1,6 @@
+<form #form1="ngForm" (ngSubmit)="viewNumbers(form1)" novalidate>
+  <div class="col col-8" *ngFor="let cntrl of cntrlArr">
+    <app-xcomponent [dataMsg]="newData"></app-xcomponent>
+  </div>
+</form>
+
